@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style10.css">
+    <link rel="stylesheet" href="style.css">
+    <script 
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="shortcut icon" href="image/download.png" type="image/x-icon" />
+
+
+    <title>Add a restaurant - Zomato</title>
+</head>
+<body>
+    <div class="main1">
+        <nav class="navbar1">
+            <img src="image/b40b97e677bc7b2ca77c58c61db266fe1603954218.avif" alt="" id="iconzomato4">
+            <div class="inputstyle" id="inputstyling">
+                <ion-icon name="location-outline" id="iconlocation"></ion-icon>
+                <select name="" id="bhopal">
+                  <label for="go">Bhopal</label>
+                  <option value="go">Bhopal</option>
+                  <label for="go1">Bihar</label>
+                  <option value="go1">Bihar</option>
+                  <label for="go2">Mumbai</label>
+                  <option value="go2">Mumbai</option>
+                </select>
+                <ion-icon name="search-outline" id="iconsearch"></ion-icon>
+                <input
+                  type="text"
+                  name=""
+                  id="inputfill" class="input11"
+                  placeholder="Search for restaurant, cuisine or a dish"
+                />
+              </div>
+              <div class="logingparr">
+                <p id="logingbutton">Log in</p>
+                <p id="signbutton">Sign up</p>
+              </div>
+        </nav>
+        <!-- COLLECTION EVENT APPLY -->
+        <div class="popup" id="po">
+          <p>Collection URL Copied to Clipboard</p>
+          <p>x</p>
+        </div>
+        <!-- i have completed navbar parted -->
+        <div style="height: 2px; border: solid 1px rgba(0, 0, 0, 0.286); margin-top: 1.4rem; width: 100vw;"></div>
+        <!-- main container part start -->
+        <div class="supercontiner">
+            <!-- first image part competed -->
+            <div>
+                <div class="shimla">
+                    <p id="first01">Home /</p>
+                    <p id="secon02">Shimla /</p>
+                    <p id="third03">Collections /</p>
+                    <p>10 Must-Visit Restaurants in Shimla</p>
+                </div>
+                <!-- <div class="imageofsavecollection">jj</div> -->
+                <div style="position: relative;">
+                    <img src="image/f4a3fd49f7aec3569c829ec17a0cbd3c_1528278870.avif" style="width: 100%; border-radius: 8px; margin-top: 4px;" alt="">
+                    <!-- ZOMATO COLLECTION CREATE -->
+                    <div class="collectionofzomato">
+                        <p class="coll">ZOMATO COLLECTIONS</p>
+                        <h1 id="headingofcollection">10 Must-Visit Restaurants in <br> Shimla</h1>
+                        <p class="thesersto">These restaurants in Shimla will want you to keep coming back for more</p>
+                        <p class="nine">9 PLACES</p>
+                    </div>
+                  </div>
+           
+
+            </div>
+            <!-- save collection button read -->
+            <div class="saveparent">
+               <div class="plus" id="plusbutton2024">
+                <p id="plussign">+</p>
+                <p id="savebutton">Save collection</p>
+               </div>
+               <div class="iconparent1">
+                <i class="bi bi-copy" id="copyicon"></i>
+               </div>
+              
+            </div>
+            <!--box card create to help the grid -->
+            <div class="boxcreating">
+                <!-- first box build -->
+                <div class="shilmaboxfirst ">
+                    <img src="image/53bfe76cc8b6d159105368d3917bdb15.avif" alt="" class="imageshilma">
+                    <div style="margin-left: 20px;">
+                        <div></div>
+                        <p style="font-size: 1.8rem;  font-weight: 600; margin-top: 14px;">Cafe Under Tree</p>
+                        <div style="display: flex; align-items: center; gap: 6px;">
+                            <div style="display: flex; border: solid 2px rgba(0, 0, 0, 0.218); width: 54px; background-color: rgba(0, 100, 0, 0.911); border-radius: 6px; gap: 8px; color: white; margin-top: 6px;">
+                                <p style="margin-left: 4px;">4.2</p>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p style="margin-top: 6px; font-weight: 600; opacity: 0.8;">DINING</p>
+                        </div>
+                        <p style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79);">Cafe</p>
+                        <p  style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79); margin-bottom: 2rem;">Longwood, Shimla</p>
+    
+                    </div>
+                 </div>
+                 <!-- second box -->
+                 <div class="shilmaboxfirst">
+                    <img src="image/e6046077786e423abe816e7cfd556eed.avif" alt="" class="imageshilma">
+                    <div style="margin-left: 20px;">
+                        <div></div>
+                        <p style="font-size: 1.8rem;  font-weight: 600; margin-top: 14px;">Cafe Under Tree</p>
+                        <div style="display: flex; align-items: center; gap: 6px;">
+                            <div style="display: flex; border: solid 2px rgba(0, 0, 0, 0.218); width: 54px; background-color: rgba(0, 100, 0, 0.911); border-radius: 6px; gap: 8px; color: white; margin-top: 6px;">
+                                <p style="margin-left: 4px;">4.2</p>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p style="margin-top: 6px; font-weight: 600; opacity: 0.8;">DINING</p>
+                        </div>
+                        <p style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79);">Cafe</p>
+                        <p  style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79); margin-bottom: 2rem;">Longwood, Shimla</p>
+    
+                    </div>
+                 </div>
+                 <!-- third box -->
+                 <div class="shilmaboxfirst">
+                    <img src="image/ff96ce1c7bbed5874632f3d923982327.avif" alt="" class="imageshilma">
+                    <div style="margin-left: 20px;">
+                        <div></div>
+                        <p style="font-size: 1.8rem;  font-weight: 600; margin-top: 14px;">Cafe Under Tree</p>
+                        <div style="display: flex; align-items: center; gap: 6px;">
+                            <div style="display: flex; border: solid 2px rgba(0, 0, 0, 0.218); width: 54px; background-color: rgba(0, 100, 0, 0.911); border-radius: 6px; gap: 8px; color: white; margin-top: 6px;">
+                                <p style="margin-left: 4px;">4.2</p>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p style="margin-top: 6px; font-weight: 600; opacity: 0.8;">DINING</p>
+                        </div>
+                        <p style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79);">Cafe</p>
+                        <p  style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79); margin-bottom: 2rem;">Longwood, Shimla</p>
+    
+                    </div>
+                 </div>
+                 <!-- fourth box -->
+                 <div class="shilmaboxfirst">
+                    <img src="image/4720e6b71324add49438b6915458f9cc_1528256893.avif" alt="" class="imageshilma">
+                    <div style="margin-left: 20px;">
+                        <div></div>
+                        <p style="font-size: 1.8rem;  font-weight: 600; margin-top: 14px;">Cafe Under Tree</p>
+                        <div style="display: flex; align-items: center; gap: 6px;">
+                            <div style="display: flex; border: solid 2px rgba(0, 0, 0, 0.218); width: 54px; background-color: rgba(0, 100, 0, 0.911); border-radius: 6px; gap: 8px; color: white; margin-top: 6px;">
+                                <p style="margin-left: 4px;">4.2</p>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p style="margin-top: 6px; font-weight: 600; opacity: 0.8;">DINING</p>
+                        </div>
+                        <p style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79);">Cafe</p>
+                        <p  style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79); margin-bottom: 2rem;">Longwood, Shimla</p>
+    
+                    </div>
+                 </div>
+                 <!-- vth box -->
+                 <div class="shilmaboxfirst">
+                    <img src="image/6f0ae519cd985d6a61da90da30561858.avif" alt="" class="imageshilma">
+                    <div style="margin-left: 20px;">
+                        <div></div>
+                        <p style="font-size: 1.8rem;  font-weight: 600; margin-top: 14px;">Cafe Under Tree</p>
+                        <div style="display: flex; align-items: center; gap: 6px;">
+                            <div style="display: flex; border: solid 2px rgba(0, 0, 0, 0.218); width: 54px; background-color: rgba(0, 100, 0, 0.911); border-radius: 6px; gap: 8px; color: white; margin-top: 6px;">
+                                <p style="margin-left: 4px;">4.2</p>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p style="margin-top: 6px; font-weight: 600; opacity: 0.8;">DINING</p>
+                        </div>
+                        <p style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79);">Cafe</p>
+                        <p  style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79); margin-bottom: 2rem;">Longwood, Shimla</p>
+    
+                    </div>
+                 </div>
+                 <!-- 6th box -->
+                 <div class="shilmaboxfirst">
+                    <img src="image/e6046077786e423abe816e7cfd556eed.avif" alt="" class="imageshilma">
+                    <div style="margin-left: 20px;">
+                        <div></div>
+                        <p style="font-size: 1.8rem;  font-weight: 600; margin-top: 14px;">Cafe Under Tree</p>
+                        <div style="display: flex; align-items: center; gap: 6px;">
+                            <div style="display: flex; border: solid 2px rgba(0, 0, 0, 0.218); width: 54px; background-color: rgba(0, 100, 0, 0.911); border-radius: 6px; gap: 8px; color: white; margin-top: 6px;">
+                                <p style="margin-left: 4px;">4.2</p>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p style="margin-top: 6px; font-weight: 600; opacity: 0.8;">DINING</p>
+                        </div>
+                        <p style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79);">Cafe</p>
+                        <p  style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79); margin-bottom: 2rem;">Longwood, Shimla</p>
+    
+                    </div>
+                 </div>
+                 <!-- 7th box -->
+                 <div class="shilmaboxfirst">
+                    <img src="image/e6046077786e423abe816e7cfd556eed.avif" alt="" class="imageshilma">
+                    <div style="margin-left: 20px;">
+                        <div></div>
+                        <p style="font-size: 1.8rem;  font-weight: 600; margin-top: 14px;">Cafe Under Tree</p>
+                        <div style="display: flex; align-items: center; gap: 6px;">
+                            <div style="display: flex; border: solid 2px rgba(0, 0, 0, 0.218); width: 54px; background-color: rgba(0, 100, 0, 0.911); border-radius: 6px; gap: 8px; color: white; margin-top: 6px;">
+                                <p style="margin-left: 4px;">4.2</p>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p style="margin-top: 6px; font-weight: 600; opacity: 0.8;">DINING</p>
+                        </div>
+                        <p style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79);">Cafe</p>
+                        <p  style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79); margin-bottom: 2rem;">Longwood, Shimla</p>
+    
+                    </div>
+                 </div>
+                 <!-- 8th box -->
+                 <div class="shilmaboxfirst">
+                    <img src="image/e6046077786e423abe816e7cfd556eed.avif" alt="" class="imageshilma">
+                    <div style="margin-left: 20px;">
+                        <div></div>
+                        <p style="font-size: 1.8rem;  font-weight: 600; margin-top: 14px;">Cafe Under Tree</p>
+                        <div style="display: flex; align-items: center; gap: 6px;">
+                            <div style="display: flex; border: solid 2px rgba(0, 0, 0, 0.218); width: 54px; background-color: rgba(0, 100, 0, 0.911); border-radius: 6px; gap: 8px; color: white; margin-top: 6px;">
+                                <p style="margin-left: 4px;">4.2</p>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p style="margin-top: 6px; font-weight: 600; opacity: 0.8;">DINING</p>
+                        </div>
+                        <p style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79);">Cafe</p>
+                        <p  style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79); margin-bottom: 2rem;">Longwood, Shimla</p>
+    
+                    </div>
+                 </div>
+                 <!-- 9th box -->
+                 <div class="shilmaboxfirst">
+                    <img src="image/e6046077786e423abe816e7cfd556eed.avif" alt="" class="imageshilma">
+                    <div style="margin-left: 20px;">
+                        <div></div>
+                        <p style="font-size: 1.8rem;  font-weight: 600; margin-top: 14px;">Cafe Under Tree</p>
+                        <div style="display: flex; align-items: center; gap: 6px;">
+                            <div style="display: flex; border: solid 2px rgba(0, 0, 0, 0.218); width: 54px; background-color: rgba(0, 100, 0, 0.911); border-radius: 6px; gap: 8px; color: white; margin-top: 6px;">
+                                <p style="margin-left: 4px;">4.2</p>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p style="margin-top: 6px; font-weight: 600; opacity: 0.8;">DINING</p>
+                        </div>
+                        <p style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79);">Cafe</p>
+                        <p  style="font-size: 1.4rem; font-weight: 400; margin-top: 6px; color: rgb(79, 79, 79); margin-bottom: 2rem;">Longwood, Shimla</p>
+    
+                    </div>
+                 </div>
+            </div>
+            <!-- MORE COLLECTION START -->
+            <div>
+                <h1 style="margin-top: 1rem;">More Collections</h1>
+
+                <div class="morestart">
+                    <div class="morepara11">
+                        <img src="image/efdc24954a9b120038907d3e99a316d4_1699527168.avif" alt="" style="height: 332px; width: 320px; border-radius: 10px;">
+                        <div class="parahill">
+                            <p>11 Hill View Restaurants</p>
+                            <p>11 Places</p>
+                        </div>
+                        
+                    </div>
+                    <!-- second box -->
+                    <div class="morepara11">
+                        <img src="image/cb0bb6fe9e7a448e85f5347b3073a407_1528278923.avif" alt="" style="height: 332px; width: 320px; border-radius: 10px;">
+                        <div class="parahill">
+                            <p>11 Hill View Restaurants</p>
+                            <p>11 Places</p>
+                        </div>
+                        
+                    </div>
+                    <!-- third box hill -->
+                    <div class="morepara11">
+                        <img src="image/efdc24954a9b120038907d3e99a316d4_1699527168.avif" alt="" style="height: 332px; width: 320px; border-radius: 10px;">
+                        <div class="parahill">
+                            <p>11 Hill View Restaurants</p>
+                            <p>11 Places</p>
+                        </div>
+                        
+                    </div>
+                    <!-- fourth box hill -->
+                    <div class="morepara11">
+                        <img src="image/d33b7f16f6f9549049b2c1ac96970be4_1699521305.avif" alt="" style="height: 332px; width: 320px; border-radius: 10px;">
+                        <div class="parahill">
+                            <p>11 Hill View Restaurants</p>
+                            <p>11 Places</p>
+                        </div>
+                        
+                    </div>
+                    <!-- vth box hill  -->
+                    <div class="morepara11">
+                        <img src="image/efdc24954a9b120038907d3e99a316d4_1699527168.avif" alt="" style="height: 332px; width: 320px; border-radius: 10px;">
+                        <div class="parahill">
+                            <p>11 Hill View Restaurants</p>
+                            <p>11 Places</p>
+                        </div>
+                        
+                    </div>
+                    <!-- 6th box hill -->
+                    <div class="morepara11">
+                        <img src="image/efdc24954a9b120038907d3e99a316d4_1699527168.avif" alt="" style="height: 332px; width: 320px; border-radius: 10px;">
+                        <div class="parahill">
+                            <p>11 Hill View Restaurants</p>
+                            <p>11 Places</p>
+                        </div>
+                        
+                    </div>
+                    <!-- 7th box hill  -->
+                    <div class="morepara11">
+                        <img src="image/efdc24954a9b120038907d3e99a316d4_1699527168.avif" alt="" style="height: 332px; width: 320px; border-radius: 10px;">
+                        <div class="parahill">
+                            <p>11 Hill View Restaurants</p>
+                            <p>11 Places</p>
+                        </div>
+                        
+                    </div>
+    
+                </div>
+            </div>
+            <!-- Explore options near me -->
+            <section class="explore" style="width: 100%;">
+                <h1>Explore options near me</h1>
+                <div>
+                  <select class="explore-select">
+                    <option selected>Bakery food near meBeverages food near meBiryani</option>
+                 
+                  </select>
+                </div>
+                <div>
+                  <select class="explore-select">
+                    <option selected>Bakeries near meBars near me</option>
+                 
+                  </select>
+                </div>
+                <div>
+                  <select class="explore-select">
+                    <option selected>Burger king</option>
+                 
+                  </select>
+                </div>
+                <div>
+                  <select class="explore-select">
+                    <option selected>Bakery food near meBeverages food near meBiryani</option>
+                 
+                  </select>
+                </div>
+            </section>
+            
+          </div>
+        <!-- *********************************** -->
+          <!-- SIGN UP-->
+          <div class="form-part0000" id="formloginup">
+            <div class="topsignup">
+              <h1 class="heading-parts" ">Sign up</h1>
+              <p id="iconcross">X</p>
+            </div>
+           
+            <!-- input field -->
+            <div class="input-form">
+              <input type="text" name="" id="firstinput11" placeholder="Full Name">
+              <input type="text" name="" id="secondinpu22" placeholder="Email">
+            </div>
+            <span class="checkboxhandle">
+              <input type="checkbox" name="" id="check11">
+              <p class="checkofpara">
+                I agree to Zomato's <span style="color: red;">Terms of Service, Privacy Policy </span>and <span style="color: red;">Content Policies</span></p>
+            </span>
+            <button id="buttonofform">Create Account</button>
+            <div style="display: flex;">
+              <div style="height: 1px; border: solid rgba(0, 0, 0, 0.562) 1px; margin-top: 2rem; width: 40%;"></div>
+              <div style="height: 1px; border: solid rgba(0, 0, 0, 0.562) 1px; margin-top: 2rem; width: 50%; margin-left: 36px;"></div>
+            </div>
+            <p style="position: absolute; font-size: 2rem; bottom: 74px; left: 210px;">or</p>
+            <p class="already">Already have an account? <span style="color:red">Log in</span> </p>
+            
+          
+        </div>
+        <!-- LOGING FORM CREATE-->
+              <!-- login part -->
+              <div class="login-part11" id="loginpart2">
+                <div class="topsignup">
+                  <h1 class="heading-parts">Login</h1>
+                  <p id="iconcross2">X</p>
+                </div>
+                <span class="checkboxhandle2">
+                  <input type="tel" name="" id="check12" placeholder="Phone">
+                </span>
+                <button class="buttonotp">Send One Time Password</button>
+                <div style="display: flex;">
+                  <div style="height: 1px; border: solid rgba(0, 0, 0, 0.562) 1px; margin-top: 2rem; width: 40%;"></div>
+                  <div style="height: 1px; border: solid rgba(0, 0, 0, 0.562) 1px; margin-top: 2rem; width: 50%; margin-left: 36px;"></div>
+                </div>
+                <p style="position: absolute; font-size: 2rem; bottom: 216px; left: 210px;">or</p>
+                <div class="messagebox">
+                  <i class="bi bi-envelope-at"></i>
+                  <p class="para1111">Continue with Email</p>
+                </div>
+                <div class="googleicon">
+                  <i class="bi bi-google"></i>
+                </div>
+                <div style="border: solid 1px rgba(0, 0, 0, 0.548); width: 100%; margin-top: 1rem;"></div>
+                <p class="lastparaoflogin">New to Zomato? <span style="color: red;">Create account</span></p>
+              </div>
+              
+              
+
+
+        <!-- FOOTER SECTION START -->
+        <section class="lastselection1" style="margin-top: 4rem;">
+            <div class="footer">
+              <div style="display: flex; justify-content: space-between;" class="logorigh-left">
+                <img src="image/b40b97e677bc7b2ca77c58c61db266fe1603954218.avif" alt="">
+                <div>
+                  <!-- <select name="" id="">
+                    <option value="">hye</option>
+                  </select> -->
+                </div>
+              </div>
+              <div class="aboutcontaint">
+                <!-- first box -->
+                <div class="firstbox11">
+                  <h1>ABOUT ZOMATO</h1>
+                  <p>Who we are</p>
+                  <p>Blog</p>
+                  <p>Work With Us</p>
+                  <p>Investor Relations</p>
+                  <p>Report Fraud</p>
+                  <p>Press Kit</p>
+                  <p>Contact Us</p>
+                </div>
+                <!-- second box -->
+                <div class="firstbox11">
+                  <h1>ZOMAVERSE</h1>
+                  <p>Zomato</p>
+                  <p>Blinkit</p>
+                  <p>Feeding India</p>
+                  <p>Hyperpure</p>
+                  <p>Zomaland</p>
+              
+                </div>
+                <!-- third box -->
+                <div class="firstbox11">
+                  <h1>FOR RESTAURANTS</h1>
+                  <p>Partner With Us</p>
+                  <p>App For You</p>
+                  <h1>FOR ENTERPRISES</h1>
+                  <p>Zomato For Enterprise</p>
+                 
+                </div>
+                <!-- fourth box -->
+                <div class="firstbox11">
+                  <h1>LEARN MORE</h1>
+                  <p>Privacy</p>
+                  <p>Security</p>
+                  <p>Terms</p>
+                  <p>Sitemap</p>
+                 
+                </div>
+                <!-- vth box -->
+                <div class="firstbox11">
+                  <h1>SOCIAL LINKS</h1>
+                 <div class="lasticon">
+                  <i class="bi bi-linkedin"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-youtube"></i>
+                  <i class="bi bi-facebook"></i>
+                 </div>
+                 <div style="display: flex;flex-direction: column;">
+                  <img src="image/9f0c85a5e33adb783fa0aef667075f9e1556003622.webp" alt="" class="lastimagelogo1">
+                  <img src="image/23e930757c3df49840c482a8638bf5c31556001144.webp" alt="" class="lastimagelogo2">
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div style="border: solid 1px rgba(0, 0, 0, 0.685); height: 1px; width: 74vw; margin: auto; margin-top: 2rem;"></div>
+            <div style=" height: 1px; width: 74vw; margin: auto; margin-top: 1rem;opacity: 0.80;">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.</div>
+          </section>
+       
+    </div>
+    <script src="logic10.js"></script>
+</body>
+</html>

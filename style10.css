@@ -1,0 +1,594 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(102, 51, 153, 0.182); */
+}
+
+.navbar1{
+    display: flex;
+    /* background-color: red; */
+    /* width: 10vw; */
+    /* margin: auto; */
+    /* margin-left: 4rem; */
+    /* min-width: 40vw; */
+    /* justify-content: space-between; */
+    /* margin-right: 4rem; */
+    width:70%;
+    margin: auto;
+    /* margin-top: 1rem; */
+    gap: 4rem;
+    position: relative;
+}
+.logingparr{
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+    gap: 30px;
+    align-items: center;
+    /* text-align: start; */
+    opacity: 0.98;
+    cursor: pointer;
+}
+#inputstyling{
+    border: solid rgba(0, 0, 0, 0.264) 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(28, 40, 28, 0.90) 0px 2px 8px; */
+    border: 1px solid rgb(232, 232, 232);
+    background-color: rgb(255, 255, 255);
+}
+#iconzomato4{
+    width: 148px;
+    height: 32px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.supercontiner{
+    /* background-color: red; */
+    width: 70%;
+    margin: auto;
+    position: relative ;
+}   
+.shimla{
+    display: flex;
+    margin-top: 8px;
+    opacity: 0.98;
+    font-size: 1.1rem;
+    gap: 10px;
+    cursor: pointer;
+
+}
+#first01:hover{
+    color: red;
+}
+#secon02:hover{
+    color: red;
+}
+#third03:hover{
+    color: red;
+}
+/* .imageofsavecollection{
+    background-image: url("https://b.zmtcdn.com/data/collections/f4a3fd49f7aec3569c829ec17a0cbd3c_1528278870.jpg?output-format=webp&fit=around|858.4000000000001:256&crop=858.4000000000001:256;*,*");
+    height: 320px;
+    width: 100vw;
+    
+} */
+.collectionofzomato{
+    position: absolute;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.777);
+    color: white;
+    border-radius: 8px;
+    /* width: 556px; */
+    height: 300px;
+    margin-top: 4.8rem;
+}
+.coll{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(208, 212, 220);
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+#headingofcollection{
+    margin-left: 2rem;
+    font-size: 3.4rem;
+    font-size: 600;
+    color: rgb(248, 249, 252);
+    margin-right: 24px;
+
+
+}
+.thesersto{
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+.nine{
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    opacity: 0.8;
+
+}
+.saveparent{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 48px;
+    right: 30px;
+    cursor: pointer;
+}
+.plus{
+    display: flex;
+    /* border: solid rgba(0, 0, 0, 0.644) 2px; */
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 8px;
+    border-radius: 40px;
+    width: 160px;
+    gap: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.644);
+    border: none;
+}
+#plussign{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.iconparent1{
+
+    border: solid black 2px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.644);
+
+}
+#copyicon{
+    font-size: 2rem;
+    color: white;
+}
+.boxcreating{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 4rem;
+    /* background-color: blanchedalmond; */
+    border-radius: 12px;
+    gap: 8px;
+    /* margin-bottom: px; */
+    
+}
+.shilmaboxfirst{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    
+}
+.imageshilma1{
+    border-radius: 12px;
+    width: 120%;
+    object-fit: fill;
+    object-fit: cover;
+    /* border-radius: 120px; */
+   
+}
+.cafeunder{
+    /* margin-left: 20rem; */
+    font-size: 1.4rem;
+}
+.morestart{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 2rem;
+    border-radius: 10px;
+    /* margin-bottom: 40px; */
+}
+.morepara11{
+    position: relative;
+    margin-bottom: 16px;
+}
+.parahill{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+/* FOMR STYLE PROPERTIES */
+.login-part11{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 18%;
+    left: 36%;
+    background-color: white;
+    height: 62vh;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 500px;
+    /* display: none; */
+    
+
+    /* overflow-y: hidden; */
+    
+
+}
+.heading-parts{
+    font-size: 3rem;
+    opacity: 0.80;
+    /* overflow-y: hidden; */
+    /* margin-left: 1rem; */
+}
+.topsignup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.6rem;
+}
+
+#iconcross{
+    margin-top: 16px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    
+}
+#iconcross2{
+    margin-top: 16px;
+    font-size: 1.6rem;
+    cursor: pointer;
+
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#firstinput11{
+    width: 100%;
+    height: 3.4rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+    opacity: 0.60;
+    color: rgb(250, 8, 8);
+}
+#secondinpu22{
+    width: 100%;
+    height: 3.4rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+    opacity: 0.60;
+    color: rgb(250, 8, 8);
+    margin-top: 2rem;
+
+}
+.checkboxhandle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+
+
+}
+.checkboxhandle input{
+    width: 24px;
+}
+#check11:hover{
+    border: solid 1px red;
+    cursor: pointer;
+    /* width: 200px; */
+}
+.checkofpara{
+    margin-left: 16px;
+    /* font-size: 1.rem; */
+}
+#buttonofform{
+    width: 100%;
+    opacity: 0.80;
+    border: none;
+}
+.already{
+    font-size: 1.6rem;
+    margin-top: 12px;
+}
+#check12{
+    width: 100%;
+    height: 3.4rem;
+    border: solid 2px rgb(5, 247, 174);
+    font-size: 2rem;
+    padding-left: 1.2rem;
+    
+}
+.buttonotp{
+    width: 100%;
+    opacity: 0.80;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.804);
+    border-radius: 4px;
+    margin-top: 2rem;
+    color: white;
+    font-weight: 400;
+}
+.messagebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.6rem;
+    border: solid 2px rgba(0, 0, 0, 0.644);
+    height: 3.6rem;
+    margin-top: 2.4rem;
+}
+.messagebox i{
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: red;
+}
+.para1111{
+    font-size: 1.4rem;
+}
+.googleicon{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    /* border: solid whitesmoke 2px; */
+   
+}
+.googleicon i{
+  font-size: 2rem;
+  color: rgb(237, 116, 10);
+  
+  
+
+}
+.lastparaoflogin{
+    margin-top: 0.8rem;
+    font-size: 1.4rem;
+}
+
+/* FORM PART STYLE PROPERTIES */
+.form-part{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 18%;
+    left: 36%;
+    background-color: white;
+    height: 62vh;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 500px;
+    display: none;
+
+
+}
+.login-part11{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 18%;
+    left: 36%;
+    background-color: white;
+    height: 62vh;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 500px;
+    display: none;
+    overflow-y: hidden;
+    
+
+}
+.heading-parts{
+    font-size: 3rem;
+    opacity: 0.80;
+    /* margin-left: 1rem; */
+}
+.topsignup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.6rem;
+}
+#iconcross{
+    margin-top: 16px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    
+}
+#iconcross2{
+    margin-top: 16px;
+    font-size: 1.6rem;
+    cursor: pointer;
+
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#firstinput11{
+    width: 100%;
+    height: 3.4rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+    opacity: 0.60;
+    color: rgb(250, 8, 8);
+}
+#secondinpu22{
+    width: 100%;
+    height: 3.4rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+    opacity: 0.60;
+    color: rgb(250, 8, 8);
+    margin-top: 2rem;
+
+}
+.checkboxhandle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+
+
+}
+.checkboxhandle input{
+    width: 24px;
+}
+#check11:hover{
+    border: solid 1px red;
+    cursor: pointer;
+    /* width: 200px; */
+}
+.checkofpara{
+    margin-left: 16px;
+    /* font-size: 1.rem; */
+}
+#buttonofform{
+    width: 100%;
+    opacity: 0.80;
+    border: none;
+}
+.already{
+    font-size: 1.6rem;
+    margin-top: 12px;
+}
+.popup{
+    /* background-color: red; */
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 8px 0px 8px;
+    border: solid 2px black;
+    height: 3rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: rgba(0, 100, 0, 0.847);
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 10px;
+    left: 700px;
+    border-radius: 4px;
+    border: none;
+    display: none;
+    gap: 2rem;
+
+
+
+}
+
+
+/* SIGN UP */
+.form-part0000{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 18%;
+    left: 36%;
+    background-color: white;
+    height: 62vh;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 500px;
+    display: none;
+
+
+}
+.login-part{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 18%;
+    left: 36%;
+    background-color: white;
+    height: 62vh;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 500px;
+    display: none;
+    overflow-y: hidden;
+    
+
+}
+.heading-parts{
+    font-size: 3rem;
+    opacity: 0.80;
+    /* margin-left: 1rem; */
+}
+.topsignup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.6rem;
+}
+#iconcross{
+    margin-top: 16px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    
+}
+#iconcross2{
+    margin-top: 16px;
+    font-size: 1.6rem;
+    cursor: pointer;
+
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#firstinput11{
+    width: 100%;
+    height: 3.4rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+    opacity: 0.60;
+    color: rgb(250, 8, 8);
+}
+#secondinpu22{
+    width: 100%;
+    height: 3.4rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+    opacity: 0.60;
+    color: rgb(250, 8, 8);
+    margin-top: 2rem;
+
+}
+.checkboxhandle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+
+
+}
+.checkboxhandle input{
+    width: 24px;
+}
+#check11:hover{
+    border: solid 1px red;
+    cursor: pointer;
+    /* width: 200px; */
+}
+.checkofpara{
+    margin-left: 16px;
+    /* font-size: 1.rem; */
+}
+#buttonofform{
+    width: 100%;
+    opacity: 0.80;
+    border: none;
+}
+.already{
+    font-size: 1.6rem;
+    margin-top: 12px;
+}
