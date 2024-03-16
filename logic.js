@@ -1,8 +1,6 @@
 let formPage=document.querySelector(".form-part")
 let sinup=document.getElementById("signup")
 let cross=document.getElementById("iconcross")
-
-
 sinup.addEventListener("click",()=>{
     hiddenlogin()
     formPage.style.display="block"
@@ -10,9 +8,16 @@ sinup.addEventListener("click",()=>{
 
 })
 
+
+
 cross.addEventListener("click",()=>{
     formPage.style.display="none"
 
+})
+let bo=document.querySelector(".middlePart-containt")
+bo.addEventListener("click",function(){
+    formPage.style.display="none"
+    loginpage.style.display="none"
 })
 // function calling
 function hiddenlogin(){

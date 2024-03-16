@@ -580,7 +580,7 @@ button{
 #check12{
     width: 100%;
     height: 3.4rem;
-    border: solid 2px rgb(5, 247, 174);
+    /* border: solid 2px rgb(5, 247, 174); */
     font-size: 2rem;
     padding-left: 1.2rem;
     

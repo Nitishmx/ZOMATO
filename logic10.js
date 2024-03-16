@@ -33,6 +33,7 @@ let iconbutton=document.getElementById("copyicon")
 iconbutton.addEventListener("click",function(){
     allDisplayHidden()
     pop.style.display="block"
+    pop.style.display="flex"
     setTimeout(() => {
         pop.style.display="none"
      
