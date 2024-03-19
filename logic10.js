@@ -12,7 +12,7 @@ let form=document.getElementById("loginpart2")
 
 //  }
  cross.addEventListener("click",function(){
-    form.style.display="none "
+    form.style.display="none"
  })
 
 //  loging button apply eventlistener
@@ -21,9 +21,11 @@ let signp=document.getElementById("signbutton")
 login.addEventListener("click",function(){
     // hiddenfirst();
     form.style.display="block"
+    fo.style.display="none"
 
 })
 signp.addEventListener("click",function(){
+    // form.style.display="none"
 
 })
 

@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 html ,body{
     width: 100%;
@@ -19,7 +19,7 @@ html ,body{
     /* min-width: 40vw; */
     /* justify-content: space-between; */
     /* margin-right: 4rem; */
-    width:70%;
+    width:78%;
     margin: auto;
     /* margin-top: 1rem; */
     gap: 4rem;
@@ -62,6 +62,7 @@ html ,body{
     font-size: 1.1rem;
     gap: 10px;
     cursor: pointer;
+    
 
 }
 #first01:hover{
@@ -157,24 +158,25 @@ html ,body{
 }
 .boxcreating{
     display: grid;
-    grid-template-rows: repeat(3,1fr);
-    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     margin-top: 4rem;
     /* background-color: blanchedalmond; */
     border-radius: 12px;
-    gap: 8px;
+    gap: 16px;
     /* margin-bottom: px; */
+    
     
 }
 .shilmaboxfirst{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 12px;
+    border-radius: 20px;
     margin-bottom: 14px;
     
 }
-.imageshilma1{
+.imageshilma{
     border-radius: 12px;
-    width: 120%;
+    /* width: 200px; */
     object-fit: fill;
     object-fit: cover;
     /* border-radius: 120px; */
@@ -187,10 +189,11 @@ html ,body{
 .morestart{
     display: grid;
     grid-template-rows: repeat(2,1fr);
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     margin-top: 2rem;
     border-radius: 10px;
     /* margin-bottom: 40px; */
+    /* background-color: red; */
 }
 .morepara11{
     position: relative;
@@ -216,6 +219,7 @@ html ,body{
     border-radius: 8px;
     padding: 2rem;
     width: 500px;
+    border: solid black 2px;
     /* display: none; */
     
 
@@ -366,6 +370,7 @@ html ,body{
     padding: 2rem;
     width: 500px;
     display: none;
+    border: solid black 2px;
 
 
 }
@@ -461,7 +466,7 @@ html ,body{
 }
 .popup{
     /* background-color: red; */
-    width: 18%;
+    width: 24%;
     display: flex;
     align-items: center;
     justify-content: space-between;
